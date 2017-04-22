@@ -59,6 +59,28 @@
 
 .fullscreen-preview .main-view .content {
     left: 0 !important;
+    z-index: 900;
+}
+
+.fullscreen-preview .main-view .content hideRightToolbar .split-vertical editor-holder-height {
+    left: 0 !important;
+    z-index: 900;
+}
+
+
+.fullscreen-preview .main-view .content #sidebar .horz-resizer {
+    z-index: 0;
+    opacity: 0;
+}
+
+.fullscreen-preview .main-view .content hideRightToolbar .horz-resizer {
+    z-index: 0;
+    opacity: 0;
+}
+
+.fullscreen-preview .main-view #editor-holder .horz-resizer {
+    z-index: 0;
+    opacity: 0;
 }
 
 .bramble-inspector-highlight {
@@ -72,6 +94,9 @@ table.guide {
 table.guide td{
     text-align: center;
     padding-bottom:20px;
+}.fullscreen-preview .main-view .content {
+    left: 0 !important;
+    z-index: 900 !imporant;
 }
 
 .model-header {
